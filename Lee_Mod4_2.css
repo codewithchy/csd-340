@@ -1,0 +1,30 @@
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+#image-gallery {
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#image-gallery h3 {
+    text-align: center;
+}
+
+#image-gallery figure {
+    text-align: center;
+}
+
+#image-gallery figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+h1, #image-gallery h3, #image-gallery figcaption {
+    color: rgba(0, 0, 0, 0.8); 
+}
